@@ -3,7 +3,7 @@
  */
 const CONFIG = {
   PROXIO_WELCOME_COVER_ENABLE: true, //是否显示页面进入的欢迎文字
-  PROXIO_WELCOME_TEXT: '欢迎来到此网站，点击任意位置进入', // 欢迎文字，留空则不启用
+  PROXIO_WELCOME_TEXT: 'Welcome,Jesse Blog', // 欢迎文字，留空则不启用
 
   // 英雄区块导航
   PROXIO_HERO_ENABLE: true, // 开启英雄区
@@ -25,7 +25,7 @@ const CONFIG = {
   PROXIO_BLOG_ENABLE: true, // 首页博文区块开关
   PROXIO_BLOG_TITLE: '作品',
   PROXIO_BLOG_COUNT: 4, // 首页博文区块展示前4篇文章
-  PROXIO_BLOG_TEXT_1: '我的最新动态',
+  PROXIO_BLOG_TEXT_1: '最新动态',
 
   // 区块默认内容显示文章的summary文本，但也支持用自定义图片或logo德国替换掉占位显示内容
   PROXIO_BLOG_PLACEHOLDER_IMG_URL_1: '', // 填写要替换成的图片，支持图床或直接上传到项目中，示例  /images/feature-1.webp
@@ -64,26 +64,47 @@ const CONFIG = {
 
   // 首页生涯区块
   PROXIO_CAREER_ENABLE: true, // 区块开关
-  PROXIO_CAREER_TITLE: '生涯',
+  PROXIO_CAREER_TITLE: '职业',
   PROXIO_CAREER_TEXT: '以下是我的职业生涯',
 
   // 生涯内容卡牌 ，title是标题 ，bio是备注，text是详情
   PROXIO_CAREERS: [
     {
-      title: 'Freelance Architect',
-      bio: '2016-2020',
-      text: 'As a freelance architect, I worked on a range of residential and commercial projects, balancing form and function. I collaborated with clients and contractors to transform concepts into reality, ensuring each design was both aesthetically pleasing and structurally sound.'
+      title: '深圳元熹互动科技有限公司',
+      bio: '2023.08-2025.12',
+      text: 'CG动画导演：负责虚拟偶像产品内容创作、角色创作；CG+AIGC动画流程搭建；商业项目导演及项目管理。'
     },
     {
-      title: 'Product Designer at Spotify',
-      bio: '2020-2022',
-      text: 'At Spotify, I helped shape innovative features for millions of users globally. My focus was on creating seamless music discovery experiences, enhancing user interfaces, and optimizing cross-platform navigation, which led to an improved product flow and increased user satisfaction.'
+      title: '腾讯科技（深圳）有限公司',
+      bio: '2021.02-2022.05',
+      text: '天美J3工作室-CG动画导演：负责穿越火线手游CG动画项目管理工作，游戏版本CG视频规划，虚拟女团视频生产管理，制定生产方案，管理供应商制作，监督品质。'
     },
     {
-      title: 'Freelance Product Designer',
-      bio: '2022-Now',
-      text: 'Now I design user-centric products that align with client visions. As a freelance product designer, I collaborate with startups and established companies, crafting solutions that elevate user experiences and increase engagement across both digital and physical interfaces.'
+      title: '完美世界游戏有限责任公司北京分公司',
+      bio: '2019.12-2021.01',
+      text: '青云工作室-游戏灯光组长：负责游戏地图灯光设计、游戏内cg过场动画镜头灯光设计。'
+    },
+    {
+      title: '祖龙（天津）科技有限公司北京分公司',
+      bio: '2019.8-2019.12',
+      text: 'CG动画导演：负责龙族幻想游戏过场动画，制定文字分镜脚本，把控影片节奏，制作Layout预演，监督品质及进度。'
+    },
+    {
+      title: '北京匠人印象影视文化有限公司',
+      bio: '2015.08-2018.12',
+      text: '动画导演，视效总监：负责电影后期CG项目、游戏CG动画，负责视觉效果设计，CG动画创作，监督品质及进度。'
+    },
+    {
+      title: '北京天工异彩影视科技有限公司',
+      bio: '2014.07-2014.12',
+      text: '高级灯光师：负责电影后期灯光制作。'
+    },
+    {
+      title: '金海岸影业有限公司',
+      bio: '2012.05-2014.06',
+      text: '后期制片，灯光监制：负责电影后期灯光制作，品质监督；后期项目管理，外包分发及电影后期制作进度跟进。'
     }
+    
   ],
 
   // 首页用户测评区块
@@ -101,11 +122,11 @@ const CONFIG = {
   PROXIO_TESTIMONIALS_ITEMS: [
     {
       PROXIO_TESTIMONIALS_ITEM_TEXT:
-        '感谢大佬的方法。之前尝试过Super、Potion等国外的第三方平台，实现效果一般，个性化程度远不如这个方法，已经用起来了！ ',
+        '担任：CG灯光监制，负责灯光制作，渲染流程搭建，外包供应商品质监督。 ',
       PROXIO_TESTIMONIALS_ITEM_AVATAR:
         'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F22de3fcb-d90d-4271-bc01-f815f476122b%2F4FE0A0C0-E487-4C74-BF8E-6F01A27461B8-14186-000008094BC289A6.jpg?table=collection&id=a320a2cc-6ebe-4a8d-95cc-ea94e63bced9&width=200',
-      PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'Ryan_G',
-      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'Ryan`Log 站长',
+      PROXIO_TESTIMONIALS_ITEM_NICKNAME: '电影《西游记大闹天宫》《西游记之孙悟空三打白骨精》',
+      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '奖项：第36届香港电影金像奖最佳视觉效果奖',
       PROXIO_TESTIMONIALS_ITEM_URL: 'https://blog.gaoran.xyz/'
     },
     {
@@ -152,7 +173,7 @@ const CONFIG = {
   ],
 
   //   FAQ 常见问题模块
-  PROXIO_FAQ_ENABLE: true, // 常见问题模块开关
+  PROXIO_FAQ_ENABLE: false, // 常见问题模块开关
   PROXIO_FAQ_TITLE: '常见问题解答',
   PROXIO_FAQ_TEXT_1: '有任何问题吗？请看这里',
   PROXIO_FAQ_TEXT_2: '我们收集了常见的用户疑问',
@@ -177,19 +198,19 @@ const CONFIG = {
 
   // 关于作者区块
   PROXIO_ABOUT_ENABLE: true, // 关于作者区块区块开关
-  PROXIO_ABOUT_TITLE: '关于作者',
-  PROXIO_ABOUT_TEXT_1: 'I am an Architect Turned Into a Product Designer',
+  PROXIO_ABOUT_TITLE: '关于我',
+  PROXIO_ABOUT_TEXT_1: 'CG动画导演/视效管理/高级灯光师',
   PROXIO_ABOUT_TEXT_2:
-    'With a background in architecture, I now apply my expertise to product design, blending aesthetics, functionality, and innovation. My goal is to create modern, user-focused designs that bring your vision to life.',
+    '我是一名经验丰富的CG动画创作者，有14年行业经验，参与过多部院线电影，在电影后期的职业经历中，早期主要专注灯光设计与制作，后期为视效制片/视效指导工作，参与作品中也包含多部知名获奖电影作品；在游戏的职业经历中负责游戏灯光设计制作、游戏内过场导演，游戏PV动画导演。',
   PROXIO_ABOUT_PHOTO_URL: '/avatar.png',
   PROXIO_ABOUT_KEY_1: '经验年限',
-  PROXIO_ABOUT_VAL_1: '10年+',
-  PROXIO_ABOUT_KEY_2: '客户',
-  PROXIO_ABOUT_VAL_2: '1000+',
-  PROXIO_ABOUT_KEY_3: '交付项目',
-  PROXIO_ABOUT_VAL_3: '5000+',
-  PROXIO_ABOUT_KEY_4: '累积创作时长（小时）',
-  PROXIO_ABOUT_VAL_4: '10000+',
+  PROXIO_ABOUT_VAL_1: '14年+',
+  PROXIO_ABOUT_KEY_2: '性别',
+  PROXIO_ABOUT_VAL_2: '男',
+  PROXIO_ABOUT_KEY_3: '年龄',
+  PROXIO_ABOUT_VAL_3: '37',
+  PROXIO_ABOUT_KEY_4: '现居住地',
+  PROXIO_ABOUT_VAL_4: '广东深圳',
 
   PROXIO_ABOUT_BUTTON_URL: '/about',
   PROXIO_ABOUT_BUTTON_TEXT: '关于我',
@@ -197,10 +218,11 @@ const CONFIG = {
   // 横向滚动文字
   PROXIO_BRANDS_ENABLE: true, // 滚动文字
   PROXIO_BRANDS: [
-    'Web Design',
-    'Logo Design',
-    'Mobile App Design',
-    'Product Design'
+    'CG动画导演',
+    'CG动画流程管理',
+    '视效指导',
+    '虚拟偶像制作人',
+    '高级灯光师'
   ],
 
   PROXIO_FOOTER_SLOGAN: '我们通过技术为品牌和公司创造数字体验。',
