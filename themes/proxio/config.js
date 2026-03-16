@@ -109,10 +109,10 @@ const CONFIG = {
 
   // 首页用户测评区块
   PROXIO_TESTIMONIALS_ENABLE: true, // 测评区块开关
-  PROXIO_TESTIMONIALS_TITLE: '用户反馈',
-  PROXIO_TESTIMONIALS_TEXT_1: '我们的用户怎么说',
+  PROXIO_TESTIMONIALS_TITLE: '项目',
+  PROXIO_TESTIMONIALS_TEXT_1: '我的项目经历',
   PROXIO_TESTIMONIALS_TEXT_2:
-    '数千位站长选择用NotionNext搭建他们的网站,通过帮助手册、交流社群以及技术咨询，大家成功上线了自己的网站',
+    '游戏项目：腾讯天美工作室《穿越火线》、完美世界《新诛仙世界》、祖龙游戏《龙族幻想》、《石器》游戏CG、《坦克争霸2》游戏CG；影视项目：电影《猛虫过江》、电影《阿修罗》、网络电影《上位2》、电影《铁道飞虎》、电视剧《幻城》、电影《鬼吹灯之寻龙诀》、电影《3D食人虫》、电影《西游记大闹天宫》、电影《西游记之孙悟空三打白骨精》、动画电影《摇滚藏獒》。',
 
   // 用户测评处的跳转按钮
   PROXIO_TESTIMONIALS_BUTTON_URL: '/about',
@@ -122,52 +122,52 @@ const CONFIG = {
   PROXIO_TESTIMONIALS_ITEMS: [
     {
       PROXIO_TESTIMONIALS_ITEM_TEXT:
-        '担任：CG灯光监制，负责灯光制作，渲染流程搭建，外包供应商品质监督。 ',
+        '担任：CG灯光监制；负责灯光制作，渲染流程搭建，外包供应商品质监督。 ',
       PROXIO_TESTIMONIALS_ITEM_AVATAR:
         'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F22de3fcb-d90d-4271-bc01-f815f476122b%2F4FE0A0C0-E487-4C74-BF8E-6F01A27461B8-14186-000008094BC289A6.jpg?table=collection&id=a320a2cc-6ebe-4a8d-95cc-ea94e63bced9&width=200',
       PROXIO_TESTIMONIALS_ITEM_NICKNAME: '电影《西游记大闹天宫》《西游记之孙悟空三打白骨精》',
-      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '奖项：第36届香港电影金像奖最佳视觉效果奖',
-      PROXIO_TESTIMONIALS_ITEM_URL: 'https://blog.gaoran.xyz/'
+      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '电影奖项：第36届香港电影金像奖最佳视觉效果奖',
+      PROXIO_TESTIMONIALS_ITEM_URL: '/'
     },
     {
       PROXIO_TESTIMONIALS_ITEM_TEXT:
-        '很喜欢这个主题，本代码小白用三天台风假期搭建出来了，还根据大佬的教程弄了自定义域名，十分感谢，已请喝咖啡~',
+        '担任：高级灯光师；负责后期CG灯光制作。',
       PROXIO_TESTIMONIALS_ITEM_AVATAR:
         'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0d33d169-f932-41ff-ac6b-88a923c08e02%2F%25E5%25A4%25B4%25E5%2583%258F.jfif?table=collection&id=7787658d-d5c0-4f34-8e32-60c523dfaba3&width=400',
-      PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'Asenkits',
-      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '阿森的百宝袋 站长',
+      PROXIO_TESTIMONIALS_ITEM_NICKNAME: '电影《鬼吹灯之寻龙诀》',
+      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '电影奖项：第53届金马奖最佳视觉效果奖',
       PROXIO_TESTIMONIALS_ITEM_URL: 'https://asenkits.top/'
     },
     {
       PROXIO_TESTIMONIALS_ITEM_TEXT:
-        '呜呜呜，经过一个下午的努力，终于把博客部署好啦，非常感谢Tangly1024大佬的框架和教程，这是我有生之年用过的最好用的博客框架┭┮﹏┭┮。从今之后，我就可以在自己的博客里bb啦，( •̀ ω •́ )y ',
+        '担任：场次视效总监；负责场次视觉效果把控，制作流程管理。',
       PROXIO_TESTIMONIALS_ITEM_AVATAR: '/avatar.png',
-      PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'DWIND',
-      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '且听风吟 站长',
+      PROXIO_TESTIMONIALS_ITEM_NICKNAME: '电影《铁道飞虎》',
+      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '电影奖项：第11届亚洲电影大奖最佳视觉特效奖提名',
       PROXIO_TESTIMONIALS_ITEM_URL: 'https://www.dwind.top/'
     },
     {
       PROXIO_TESTIMONIALS_ITEM_TEXT:
-        '感谢提供这么好的项目哈哈 之前一直不知道怎么部署(别的项目好难好复杂)这个相对非常简单 新手非常友好哦',
+        '负责穿越火线手游CG动画项目管理工作，游戏版本CG视频规划，虚拟女团视频生产管理，制定生产方案，管理供应商制作，监督品质。',
       PROXIO_TESTIMONIALS_ITEM_AVATAR:
         'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd52f6766-3e32-4c3d-8529-46e1f214360f%2Ffavicon.svg?table=collection&id=7d76aad5-a2c4-4d9a-887c-c7913fae4eed&width=400',
-      PROXIO_TESTIMONIALS_ITEM_NICKNAME: '迪升disheng ',
-      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'AI资源分享 Blog',
+      PROXIO_TESTIMONIALS_ITEM_NICKNAME: '《穿越火线》手游',
+      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '担任：CG动画导演',
       PROXIO_TESTIMONIALS_ITEM_URL: 'https://blog.disheng.org/'
     },
     {
       PROXIO_TESTIMONIALS_ITEM_TEXT:
-        '灰常感谢大佬的博客项目，能将博客和notion结合起来，这一直是我挺期待的博客模式。',
+        '负责游戏地图灯光设计制作、游戏内cg过场动画镜头灯光设计制作，与TA配合优化游戏渲染性能，开发灯光工具。',
       PROXIO_TESTIMONIALS_ITEM_AVATAR: '/avatar.png',
-      PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'AnJhon',
-      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'Anjhon`s Blog 站长',
+      PROXIO_TESTIMONIALS_ITEM_NICKNAME: '游戏《新诛仙世界》',
+      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '担任：灯光组长',
       PROXIO_TESTIMONIALS_ITEM_URL: 'https://www.anjhon.top'
     },
     {
-      PROXIO_TESTIMONIALS_ITEM_TEXT: '用好久了，太感谢了',
+      PROXIO_TESTIMONIALS_ITEM_TEXT: '负责游戏过场动画导演工作，撰写内容脚本，制作Layout预演，管理动画小组，把控生产品质。',
       PROXIO_TESTIMONIALS_ITEM_AVATAR: '/avatar.png',
-      PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'LUCEN',
-      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'LUCEN考验辅导 站长',
+      PROXIO_TESTIMONIALS_ITEM_NICKNAME: '《龙族幻想》手游',
+      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '担任：动画导演',
       PROXIO_TESTIMONIALS_ITEM_URL: 'https://www.lucenczz.top/'
     }
   ],
@@ -201,16 +201,16 @@ const CONFIG = {
   PROXIO_ABOUT_TITLE: '关于我',
   PROXIO_ABOUT_TEXT_1: 'CG导演/视效管理/高级灯光师',
   PROXIO_ABOUT_TEXT_2:
-    '我是一名经验丰富的CG动画创作者，有14年行业经验，参与过多部院线电影，在电影后期的职业经历中，早期主要专注灯光设计与制作，后期为视效制片/视效指导工作，参与作品中也包含多部知名获奖电影作品；在游戏的职业经历中负责游戏灯光设计制作、游戏内过场导演，游戏PV动画导演。',
+    '我是一名经验丰富且技术全面的CG动画创作者，有14年行业经验，参与过多部院线电影，在电影后期的职业经历中，早期主要专注灯光设计与制作，后期为视效制片/视效指导工作，参与作品中也包含多部知名获奖电影作品；在游戏的职业经历中负责游戏灯光设计制作、游戏内过场导演，游戏PV动画导演。',
   PROXIO_ABOUT_PHOTO_URL: '/avatar.png',
   PROXIO_ABOUT_KEY_1: '经验年限',
   PROXIO_ABOUT_VAL_1: '14年+',
   PROXIO_ABOUT_KEY_2: '性别',
   PROXIO_ABOUT_VAL_2: '男',
-  PROXIO_ABOUT_KEY_3: '年龄',
-  PROXIO_ABOUT_VAL_3: '37',
-  PROXIO_ABOUT_KEY_4: '现居住地',
-  PROXIO_ABOUT_VAL_4: '广东深圳',
+  PROXIO_ABOUT_KEY_3: '现居住地',
+  PROXIO_ABOUT_VAL_3: '广东深圳',
+  PROXIO_ABOUT_KEY_4: '年龄',
+  PROXIO_ABOUT_VAL_4: '37',
 
   PROXIO_ABOUT_BUTTON_URL: '/about',
   PROXIO_ABOUT_BUTTON_TEXT: '关于我',
@@ -218,6 +218,7 @@ const CONFIG = {
   // 横向滚动文字
   PROXIO_BRANDS_ENABLE: true, // 滚动文字
   PROXIO_BRANDS: [
+    '软件能力:',
     'Maya',
     'Unreal Engine',
     'DaVinci Resolve',
