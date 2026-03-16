@@ -264,6 +264,11 @@ const Style = () => {
 #testimonials p {
   white-space: pre-wrap !important;
 }
+
+/* 强制“我的项目经历”区块内的按钮向右对齐 */
+    #testimonials .mt-8.w-full.flex.justify-start {
+      justify-content: flex-end !important;
+    }  
   `}</style>
 }
 
