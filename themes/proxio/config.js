@@ -37,8 +37,8 @@ const CONFIG = {
 
   // 特性区块
   PROXIO_FEATURE_ENABLE: true, // 特性区块开关
-  PROXIO_FEATURE_TITLE: '为什么选我',
-  PROXIO_FEATURE_TEXT_1: '我能让您的项目焕发光彩',
+  PROXIO_FEATURE_TITLE: '特点',
+  PROXIO_FEATURE_TEXT_1: '动漫设计+电影摄影专业基础',
   PROXIO_FEATURE_TEXT_2: '丰富的案例经验，专业的技术服务，优质的沟通效率',
 
   // 特性1
@@ -64,45 +64,45 @@ const CONFIG = {
 
   // 首页生涯区块
   PROXIO_CAREER_ENABLE: true, // 区块开关
-  PROXIO_CAREER_TITLE: '经历',
-  PROXIO_CAREER_TEXT: '我的职业生涯',
+  PROXIO_CAREER_TITLE: '工作经历',
+  PROXIO_CAREER_TEXT: '我的职业路径',
 
   // 生涯内容卡牌 ，title是标题 ，bio是备注，text是详情
   PROXIO_CAREERS: [
     {
       title: '元熹互动',
       bio: '2023.08-2025.12',
-      text: 'CG动画导演：负责虚拟偶像产品内容创作、角色创作；CG+AIGC动画流程搭建；商业项目导演及项目管理。'
+      text: 'CG动画导演/虚拟偶像制作人'
     },
     {
       title: '腾讯天美工作室',
       bio: '2021.02-2022.05',
-      text: 'CG动画导演：负责穿越火线手游CG动画项目管理工作，游戏版本CG视频规划，虚拟女团视频生产管理，制定生产方案，管理供应商制作，监督品质。'
+      text: 'CG动画导演'
     },
     {
       title: '完美世界游戏',
       bio: '2019.12-2021.01',
-      text: '青云工作室-游戏灯光组长：负责游戏地图灯光设计、游戏内cg过场动画镜头灯光设计。'
+      text: '青云工作室-游戏灯光组长'
     },
     {
       title: '祖龙游戏',
       bio: '2019.8-2019.12',
-      text: 'CG动画导演：负责龙族幻想游戏过场动画，制定文字分镜脚本，把控影片节奏，制作Layout预演，监督品质及进度。'
+      text: 'CG动画导演'
     },
     {
-      title: '匠人印象',
+      title: '匠人影视',
       bio: '2015.08-2018.12',
-      text: '动画导演，视效总监：负责电影后期CG项目、游戏CG动画，负责视觉效果设计，CG动画创作，监督品质及进度。'
+      text: '动画导演/视效总监'
     },
     {
       title: '天工异彩',
       bio: '2014.07-2014.12',
-      text: '高级灯光师：负责电影后期灯光制作。'
+      text: '高级灯光师'
     },
     {
       title: '金海岸影业',
       bio: '2012.05-2014.06',
-      text: '后期制片，灯光监制：负责电影后期灯光制作，品质监督；后期项目管理，外包分发及电影后期制作进度跟进。'
+      text: '灯光监制/视效制片'
     }
     
   ],
@@ -112,7 +112,7 @@ const CONFIG = {
   PROXIO_TESTIMONIALS_TITLE: '项目',
   PROXIO_TESTIMONIALS_TEXT_1: '我的项目经历',
   PROXIO_TESTIMONIALS_TEXT_2:
-    '游戏项目：腾讯天美工作室《穿越火线》、完美世界《新诛仙世界》、祖龙游戏《龙族幻想》、《石器》游戏CG、《坦克争霸2》游戏CG；影视项目：电影《猛虫过江》、电影《阿修罗》、网络电影《上位2》、电影《铁道飞虎》、电视剧《幻城》、电影《鬼吹灯之寻龙诀》、电影《3D食人虫》、电影《西游记大闹天宫》、电影《西游记之孙悟空三打白骨精》、动画电影《摇滚藏獒》。',
+    '游戏项目：腾讯天美工作室《穿越火线》、完美世界《新诛仙世界》、祖龙游戏《龙族幻想》、《石器》游戏CG、《坦克争霸2》游戏CG；<br>影视项目：电影《猛虫过江》、电影《阿修罗》、网络电影《上位2》、电影《铁道飞虎》、电视剧《幻城》、电影《鬼吹灯之寻龙诀》、电影《3D食人虫》、电影《西游记大闹天宫》、电影《西游记之孙悟空三打白骨精》、动画电影《摇滚藏獒》。',
 
   // 用户测评处的跳转按钮
   PROXIO_TESTIMONIALS_BUTTON_URL: '/about',
@@ -152,7 +152,7 @@ const CONFIG = {
       PROXIO_TESTIMONIALS_ITEM_AVATAR:
         'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd52f6766-3e32-4c3d-8529-46e1f214360f%2Ffavicon.svg?table=collection&id=7d76aad5-a2c4-4d9a-887c-c7913fae4eed&width=400',
       PROXIO_TESTIMONIALS_ITEM_NICKNAME: '《穿越火线》手游',
-      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '担任：CG动画导演',
+      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '职位：CG动画导演',
       PROXIO_TESTIMONIALS_ITEM_URL: 'https://blog.disheng.org/'
     },
     {
@@ -160,14 +160,14 @@ const CONFIG = {
         '负责游戏地图灯光设计制作、游戏内cg过场动画镜头灯光设计制作，与TA配合优化游戏渲染性能，开发灯光工具。',
       PROXIO_TESTIMONIALS_ITEM_AVATAR: '/avatar.png',
       PROXIO_TESTIMONIALS_ITEM_NICKNAME: '游戏《新诛仙世界》',
-      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '担任：灯光组长',
+      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '职位：灯光组长',
       PROXIO_TESTIMONIALS_ITEM_URL: 'https://www.anjhon.top'
     },
     {
       PROXIO_TESTIMONIALS_ITEM_TEXT: '负责游戏过场动画导演工作，撰写内容脚本，制作Layout预演，管理动画小组，把控生产品质。',
       PROXIO_TESTIMONIALS_ITEM_AVATAR: '/avatar.png',
       PROXIO_TESTIMONIALS_ITEM_NICKNAME: '《龙族幻想》手游',
-      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '担任：动画导演',
+      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '职位：动画导演',
       PROXIO_TESTIMONIALS_ITEM_URL: 'https://www.lucenczz.top/'
     }
   ],
@@ -198,7 +198,7 @@ const CONFIG = {
 
   // 关于作者区块
   PROXIO_ABOUT_ENABLE: true, // 关于作者区块区块开关
-  PROXIO_ABOUT_TITLE: '关于我',
+  PROXIO_ABOUT_TITLE: 'Jesse',
   PROXIO_ABOUT_TEXT_1: 'CG导演/视效管理/高级灯光师',
   PROXIO_ABOUT_TEXT_2:
     '我是一名经验丰富且技术全面的CG动画创作者，有14年行业经验，参与过多部院线电影，在电影后期的职业经历中，早期主要专注灯光设计与制作，后期为视效制片/视效指导工作，参与作品中也包含多部知名获奖电影作品；在游戏的职业经历中负责游戏灯光设计制作、游戏内过场导演，游戏PV动画导演。',
@@ -208,7 +208,7 @@ const CONFIG = {
   PROXIO_ABOUT_KEY_2: '性别',
   PROXIO_ABOUT_VAL_2: '男',
   PROXIO_ABOUT_KEY_3: '现居住地',
-  PROXIO_ABOUT_VAL_3: '广东深圳',
+  PROXIO_ABOUT_VAL_3: '深圳',
   PROXIO_ABOUT_KEY_4: '年龄',
   PROXIO_ABOUT_VAL_4: '37',
 
