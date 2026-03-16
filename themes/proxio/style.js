@@ -259,6 +259,11 @@ const Style = () => {
   height: auto;
   width: auto;
 }
+
+/* 强制“我的项目经历”区块内的文本识别回车换行 */
+#testimonials p {
+  white-space: pre-wrap !important;
+}
   `}</style>
 }
 
