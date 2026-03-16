@@ -64,43 +64,43 @@ const CONFIG = {
 
   // 首页生涯区块
   PROXIO_CAREER_ENABLE: true, // 区块开关
-  PROXIO_CAREER_TITLE: '职业',
-  PROXIO_CAREER_TEXT: '以下是我的职业生涯',
+  PROXIO_CAREER_TITLE: '经历',
+  PROXIO_CAREER_TEXT: '我的职业生涯',
 
   // 生涯内容卡牌 ，title是标题 ，bio是备注，text是详情
   PROXIO_CAREERS: [
     {
-      title: '深圳元熹互动科技有限公司',
+      title: '元熹互动',
       bio: '2023.08-2025.12',
       text: 'CG动画导演：负责虚拟偶像产品内容创作、角色创作；CG+AIGC动画流程搭建；商业项目导演及项目管理。'
     },
     {
-      title: '腾讯科技（深圳）有限公司',
+      title: '腾讯天美工作室',
       bio: '2021.02-2022.05',
-      text: '天美J3工作室-CG动画导演：负责穿越火线手游CG动画项目管理工作，游戏版本CG视频规划，虚拟女团视频生产管理，制定生产方案，管理供应商制作，监督品质。'
+      text: 'CG动画导演：负责穿越火线手游CG动画项目管理工作，游戏版本CG视频规划，虚拟女团视频生产管理，制定生产方案，管理供应商制作，监督品质。'
     },
     {
-      title: '完美世界游戏有限责任公司北京分公司',
+      title: '完美世界游戏',
       bio: '2019.12-2021.01',
       text: '青云工作室-游戏灯光组长：负责游戏地图灯光设计、游戏内cg过场动画镜头灯光设计。'
     },
     {
-      title: '祖龙（天津）科技有限公司北京分公司',
+      title: '祖龙游戏',
       bio: '2019.8-2019.12',
       text: 'CG动画导演：负责龙族幻想游戏过场动画，制定文字分镜脚本，把控影片节奏，制作Layout预演，监督品质及进度。'
     },
     {
-      title: '北京匠人印象影视文化有限公司',
+      title: '匠人印象',
       bio: '2015.08-2018.12',
       text: '动画导演，视效总监：负责电影后期CG项目、游戏CG动画，负责视觉效果设计，CG动画创作，监督品质及进度。'
     },
     {
-      title: '北京天工异彩影视科技有限公司',
+      title: '天工异彩',
       bio: '2014.07-2014.12',
       text: '高级灯光师：负责电影后期灯光制作。'
     },
     {
-      title: '金海岸影业有限公司',
+      title: '金海岸影业',
       bio: '2012.05-2014.06',
       text: '后期制片，灯光监制：负责电影后期灯光制作，品质监督；后期项目管理，外包分发及电影后期制作进度跟进。'
     }
@@ -199,7 +199,7 @@ const CONFIG = {
   // 关于作者区块
   PROXIO_ABOUT_ENABLE: true, // 关于作者区块区块开关
   PROXIO_ABOUT_TITLE: '关于我',
-  PROXIO_ABOUT_TEXT_1: 'CG动画导演/视效管理/高级灯光师',
+  PROXIO_ABOUT_TEXT_1: 'CG导演/视效管理/高级灯光师',
   PROXIO_ABOUT_TEXT_2:
     '我是一名经验丰富的CG动画创作者，有14年行业经验，参与过多部院线电影，在电影后期的职业经历中，早期主要专注灯光设计与制作，后期为视效制片/视效指导工作，参与作品中也包含多部知名获奖电影作品；在游戏的职业经历中负责游戏灯光设计制作、游戏内过场导演，游戏PV动画导演。',
   PROXIO_ABOUT_PHOTO_URL: '/avatar.png',
@@ -218,11 +218,13 @@ const CONFIG = {
   // 横向滚动文字
   PROXIO_BRANDS_ENABLE: true, // 滚动文字
   PROXIO_BRANDS: [
-    'CG动画导演',
-    'CG动画流程管理',
-    '视效指导',
-    '虚拟偶像制作人',
-    '高级灯光师'
+    'Maya',
+    'Unreal Engine',
+    'DaVinci Resolve',
+    'Premiere',
+    'PhotoShop',
+    'Nuke',
+    'AIGC'
   ],
 
   PROXIO_FOOTER_SLOGAN: '我们通过技术为品牌和公司创造数字体验。',
