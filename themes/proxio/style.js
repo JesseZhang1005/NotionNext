@@ -265,6 +265,20 @@ const Style = () => {
   white-space: pre-wrap !important;
 }
 
+/* 1. 强制解开背景 iframe 的鼠标封印 */
+    #home iframe {
+      pointer-events: auto !important;
+    }
+
+    /* 2. 让覆盖在上面的透明容器允许鼠标穿透（打碎隐形玻璃） */
+    #home .z-20, #home .absolute.inset-0 {
+      pointer-events: none !important;
+    }
+
+    /* 3. 保留前景文字和按钮的点击/选中功能（玻璃碎了，但字还在） */
+    #home .z-20 > *, #home .absolute.inset-0 > * {
+      pointer-events: auto !important;
+    }
   `}</style>
 }
 
