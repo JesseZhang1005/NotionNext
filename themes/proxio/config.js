@@ -215,10 +215,10 @@ const CONFIG = {
   // 关于作者区块
   PROXIO_ABOUT_ENABLE: true, // 关于作者区块区块开关
   PROXIO_ABOUT_TITLE: 'Jesse Zhang',
-  PROXIO_ABOUT_TEXT_1: 'CG导演/高级灯光师',
+  PROXIO_ABOUT_TEXT_1: 'CG动画创作者',
   PROXIO_ABOUT_TEXT_2:
     '如果你需要一个懂电影叙事、懂游戏表现、还能平衡梦想与预算的老兵，那可能是在说我。入行14年，我完成了从‘打光少年’到‘做片儿老手’的蜕变。在电影后期圈，我参与过获奖电影的大制作；在游戏圈，我在灯光氛围和叙事运镜之间反复横跳。作为一个职业‘填坑人’，我最擅长用十多年的实战经验，把那些‘五彩斑斓的黑’转化成高级的动态画面。',
-  PROXIO_ABOUT_PHOTO_URL: '/avatar.png',
+  PROXIO_ABOUT_PHOTO_URL: 'https://raw.githubusercontent.com/JesseZhang1005/Media_URL/refs/heads/main/katong.png',
   PROXIO_ABOUT_KEY_1: '经验年限',
   PROXIO_ABOUT_VAL_1: '14年+',
   PROXIO_ABOUT_KEY_2: '性别',
