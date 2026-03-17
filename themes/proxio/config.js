@@ -23,7 +23,7 @@ const CONFIG = {
 
   // 文章区块
   PROXIO_BLOG_ENABLE: true, // 首页博文区块开关
-  PROXIO_BLOG_TITLE: '作品',
+  PROXIO_BLOG_TITLE: 'Showreel',
   PROXIO_BLOG_COUNT: 4, // 首页博文区块展示前4篇文章
   PROXIO_BLOG_TEXT_1: '最新动态',
 
@@ -37,7 +37,7 @@ const CONFIG = {
 
   // 特性区块
   PROXIO_FEATURE_ENABLE: true, // 特性区块开关
-  PROXIO_FEATURE_TITLE: '特点',
+  PROXIO_FEATURE_TITLE: 'My characteristics',
   PROXIO_FEATURE_TEXT_1: '动漫设计+电影摄影专业基础',
   PROXIO_FEATURE_TEXT_2: '丰富的案例经验，专业的技术服务，优质的沟通效率',
 
@@ -64,8 +64,8 @@ const CONFIG = {
 
   // 首页生涯区块
   PROXIO_CAREER_ENABLE: true, // 区块开关
-  PROXIO_CAREER_TITLE: '工作经历',
-  PROXIO_CAREER_TEXT: '我的职业路径',
+  PROXIO_CAREER_TITLE: 'Work Experience',
+  PROXIO_CAREER_TEXT: '工作经历',
 
   // 生涯内容卡牌 ，title是标题 ，bio是备注，text是详情
   PROXIO_CAREERS: [
@@ -109,8 +109,8 @@ const CONFIG = {
 
   // 首页用户测评区块
   PROXIO_TESTIMONIALS_ENABLE: true, // 测评区块开关
-  PROXIO_TESTIMONIALS_TITLE: '项目',
-  PROXIO_TESTIMONIALS_TEXT_1: '我的项目经历',
+  PROXIO_TESTIMONIALS_TITLE: 'Project',
+  PROXIO_TESTIMONIALS_TEXT_1: '项目经历',
   PROXIO_TESTIMONIALS_TEXT_2:
    ` 游戏项目：
    • 腾讯天美工作室-《穿越火线》
@@ -128,12 +128,11 @@ const CONFIG = {
    • 电影《西游记大闹天宫》
    • 电影《西游记之孙悟空三打白骨精》
    • 电视剧《幻城》
-   • 动画电影《摇滚藏獒》
-   • 网络电影《上位2》`,
+   • 动画电影《摇滚藏獒》`,
 
   // 用户测评处的跳转按钮
   PROXIO_TESTIMONIALS_BUTTON_URL: '/about',
-  PROXIO_TESTIMONIALS_BUTTON_TEXT: '联系我',
+  PROXIO_TESTIMONIALS_BUTTON_TEXT: '作品集',
 
   // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
   PROXIO_TESTIMONIALS_ITEMS: [
@@ -150,7 +149,7 @@ const CONFIG = {
       PROXIO_TESTIMONIALS_ITEM_TEXT:
         '担任：高级灯光师；负责后期CG灯光制作。',
       PROXIO_TESTIMONIALS_ITEM_AVATAR:
-        'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0d33d169-f932-41ff-ac6b-88a923c08e02%2F%25E5%25A4%25B4%25E5%2583%258F.jfif?table=collection&id=7787658d-d5c0-4f34-8e32-60c523dfaba3&width=400',
+        'https://raw.githubusercontent.com/JesseZhang1005/Media_URL/refs/heads/main/xunlong.jpg',
       PROXIO_TESTIMONIALS_ITEM_NICKNAME: '电影《鬼吹灯之寻龙诀》',
       PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '电影奖项：第53届金马奖最佳视觉效果奖',
       PROXIO_TESTIMONIALS_ITEM_URL: 'https://asenkits.top/'
@@ -158,7 +157,7 @@ const CONFIG = {
     {
       PROXIO_TESTIMONIALS_ITEM_TEXT:
         '担任：场次视效总监；负责场次视觉效果把控，制作流程管理。',
-      PROXIO_TESTIMONIALS_ITEM_AVATAR: '/avatar.png',
+      PROXIO_TESTIMONIALS_ITEM_AVATAR: 'https://raw.githubusercontent.com/JesseZhang1005/Media_URL/refs/heads/main/tiedao.jpg',
       PROXIO_TESTIMONIALS_ITEM_NICKNAME: '电影《铁道飞虎》',
       PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '电影奖项：第11届亚洲电影大奖最佳视觉特效奖提名',
       PROXIO_TESTIMONIALS_ITEM_URL: 'https://www.dwind.top/'
@@ -167,7 +166,7 @@ const CONFIG = {
       PROXIO_TESTIMONIALS_ITEM_TEXT:
         '负责穿越火线手游CG动画项目管理工作，游戏版本CG视频规划，虚拟女团视频生产管理，制定生产方案，管理供应商制作，监督品质。',
       PROXIO_TESTIMONIALS_ITEM_AVATAR:
-        'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd52f6766-3e32-4c3d-8529-46e1f214360f%2Ffavicon.svg?table=collection&id=7d76aad5-a2c4-4d9a-887c-c7913fae4eed&width=400',
+        'https://raw.githubusercontent.com/JesseZhang1005/Media_URL/refs/heads/main/CFM.jpg',
       PROXIO_TESTIMONIALS_ITEM_NICKNAME: '《穿越火线》手游',
       PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '职位：CG动画导演',
       PROXIO_TESTIMONIALS_ITEM_URL: 'https://blog.disheng.org/'
@@ -175,14 +174,14 @@ const CONFIG = {
     {
       PROXIO_TESTIMONIALS_ITEM_TEXT:
         '负责游戏地图灯光设计制作、游戏内cg过场动画镜头灯光设计制作，与TA配合优化游戏渲染性能，开发灯光工具。',
-      PROXIO_TESTIMONIALS_ITEM_AVATAR: '/avatar.png',
+      PROXIO_TESTIMONIALS_ITEM_AVATAR: 'https://raw.githubusercontent.com/JesseZhang1005/Media_URL/refs/heads/main/zhuxian.jpg',
       PROXIO_TESTIMONIALS_ITEM_NICKNAME: '游戏《新诛仙世界》',
       PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '职位：灯光组长',
       PROXIO_TESTIMONIALS_ITEM_URL: 'https://www.anjhon.top'
     },
     {
       PROXIO_TESTIMONIALS_ITEM_TEXT: '负责游戏过场动画导演工作，撰写内容脚本，制作Layout预演，管理动画小组，把控生产品质。',
-      PROXIO_TESTIMONIALS_ITEM_AVATAR: '/avatar.png',
+      PROXIO_TESTIMONIALS_ITEM_AVATAR: 'https://raw.githubusercontent.com/JesseZhang1005/Media_URL/refs/heads/main/longzu.jpg',
       PROXIO_TESTIMONIALS_ITEM_NICKNAME: '《龙族幻想》手游',
       PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '职位：动画导演',
       PROXIO_TESTIMONIALS_ITEM_URL: 'https://www.lucenczz.top/'
@@ -215,10 +214,10 @@ const CONFIG = {
 
   // 关于作者区块
   PROXIO_ABOUT_ENABLE: true, // 关于作者区块区块开关
-  PROXIO_ABOUT_TITLE: 'Jesse',
-  PROXIO_ABOUT_TEXT_1: 'CG导演/视效管理/高级灯光师',
+  PROXIO_ABOUT_TITLE: 'Jesse Zhang',
+  PROXIO_ABOUT_TEXT_1: 'CG导演/高级灯光师',
   PROXIO_ABOUT_TEXT_2:
-    '我是一名经验丰富且技术全面的CG动画创作者，有14年行业经验，参与过多部院线电影，在电影后期的职业经历中，早期主要专注灯光设计与制作，后期为视效制片/视效指导工作，参与作品中也包含多部知名获奖电影作品；在游戏的职业经历中负责游戏灯光设计制作、游戏内过场导演，游戏PV动画导演。',
+    '如果你需要一个懂电影叙事、懂游戏表现、还能平衡梦想与预算的老兵，那可能是在说我。入行14年，我完成了从‘打光少年’到‘做片儿老手’的蜕变。在电影后期圈，我参与过获奖电影的大制作；在游戏圈，我在灯光氛围和叙事运镜之间反复横跳。作为一个职业‘填坑人’，我最擅长用十多年的实战经验，把那些‘五彩斑斓的黑’转化成高级的动态画面。',
   PROXIO_ABOUT_PHOTO_URL: '/avatar.png',
   PROXIO_ABOUT_KEY_1: '经验年限',
   PROXIO_ABOUT_VAL_1: '14年+',
