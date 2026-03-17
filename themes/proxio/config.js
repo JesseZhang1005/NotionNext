@@ -141,7 +141,7 @@ const CONFIG = {
       PROXIO_TESTIMONIALS_ITEM_TEXT:
         '担任：CG灯光监制；负责灯光制作，渲染流程搭建，外包供应商品质监督。 ',
       PROXIO_TESTIMONIALS_ITEM_AVATAR:
-        'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F22de3fcb-d90d-4271-bc01-f815f476122b%2F4FE0A0C0-E487-4C74-BF8E-6F01A27461B8-14186-000008094BC289A6.jpg?table=collection&id=a320a2cc-6ebe-4a8d-95cc-ea94e63bced9&width=200',
+        'https://raw.githubusercontent.com/JesseZhang1005/Media_URL/refs/heads/main/sanda.jpg',
       PROXIO_TESTIMONIALS_ITEM_NICKNAME: '电影《西游记大闹天宫》《西游记之孙悟空三打白骨精》',
       PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '电影奖项：第36届香港电影金像奖最佳视觉效果奖',
       PROXIO_TESTIMONIALS_ITEM_URL: '/'
