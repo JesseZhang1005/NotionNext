@@ -279,6 +279,18 @@ const Style = () => {
     #home .z-20 > *, #home .absolute.inset-0 > * {
       pointer-events: auto !important;
     }
+
+/* --- 昼夜交替魔法：让星空适配深浅模式 --- */
+    
+    /* 1. 默认（浅色模式）下：给整个特效加上反相滤镜，白色的粒子会变成黑色 */
+    html:not(.dark) #home iframe {
+      filter: invert(1) !important;
+    }
+
+    /* 2. 深色模式下：取消滤镜，保持原本的白色粒子 */
+    html.dark #home iframe {
+      filter: none !important;
+    }
     
   `}</style>
 }
