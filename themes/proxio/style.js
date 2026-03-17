@@ -291,6 +291,24 @@ const Style = () => {
     html.dark #home iframe {
       filter: none !important;
     }
+
+/* --- 修复浅色模式下文字隐身的问题 --- */
+    
+    /* 浅色模式下，强制把顶部导航栏和主页原本的白字改成深灰色 */
+    html:not(.dark) .ud-header .text-white,
+    html:not(.dark) .ud-header a,
+    html:not(.dark) .ud-header span,
+    html:not(.dark) #home .text-white,
+    html:not(.dark) #home h1,
+    html:not(.dark) #home p {
+      color: #1f2937 !important; 
+    }
+
+    /* 浅色模式下，让顶部的图标（比如深浅模式切换的太阳/月亮）也变成深色 */
+    html:not(.dark) .ud-header svg {
+      color: #1f2937 !important;
+      fill: #1f2937 !important;
+    }
     
   `}</style>
 }
