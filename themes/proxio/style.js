@@ -309,6 +309,20 @@ const Style = () => {
       color: #1f2937 !important;
       fill: #1f2937 !important;
     }
+
+/* --- 修改文章卡片封面的透明度行为 --- */
+    
+    /* 1. 默认状态：强制显示图片，并设置为 50% 透明度 */
+    #home .group img {
+      opacity: 0.5 !important;
+      visibility: visible !important; 
+      transition: opacity 0.3s ease-in-out !important; /* 添加平滑过渡动画 */
+    }
+
+    /* 2. 鼠标悬停状态：图片变为 90% 透明度 */
+    #home .group:hover img {
+      opacity: 0.9 !important;
+    }
     
   `}</style>
 }
