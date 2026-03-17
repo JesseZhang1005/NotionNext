@@ -279,6 +279,36 @@ const Style = () => {
     #home .z-20 > *, #home .absolute.inset-0 > * {
       pointer-events: auto !important;
     }
+
+/* 1. 把特效 iframe 变成全屏底层壁纸 */
+    #home iframe {
+      position: absolute !important;
+      top: 0 !important;
+      left: 0 !important;
+      width: 100% !important;
+      height: 100% !important;
+      z-index: 0 !important;
+      /* 顺便解开鼠标交互封印 */
+      pointer-events: auto !important; 
+    }
+
+    /* 2. 剥掉文字区块周围黑乎乎的纯色背景，变成全透明 */
+    #home, #home .bg-black, #home .dark\\:bg-black {
+      background-color: transparent !important;
+    }
+
+    /* 3. 把文字区块强行提拔到最上层（打碎隐形玻璃） */
+    #home .z-20, #home .relative {
+      position: relative !important;
+      z-index: 10 !important;
+      pointer-events: none !important; /* 让鼠标穿透文字周围的透明区域 */
+    }
+
+    /* 4. 保留文字和按钮本身的点击功能 */
+    #home .z-20 > *, #home .relative > * {
+      pointer-events: auto !important;
+    }
+    
   `}</style>
 }
 
