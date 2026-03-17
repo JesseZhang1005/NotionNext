@@ -79,7 +79,7 @@ export const Blog = ({ posts }) => {
                           />
                         )}
                         {/* 遮罩层，仅覆盖图片部分 */}
-                        <div className='absolute inset-0 bg-white/30 dark:bg-black/30 transition-all duration-500 group-hover:bg-transparent' />
+                        <div className='absolute inset-0 bg-white/70 dark:bg-black/70 transition-all duration-500 group-hover:bg-transparent' />
                         {/* 鼠标悬停时显示的文字内容 */}
                         <div className='absolute inset-0 flex items-center justify-center group-hover:scale-110 duration-200 group-hover:text-white'>
                           {!coverImg && (
