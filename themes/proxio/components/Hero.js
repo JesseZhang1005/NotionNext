@@ -41,7 +41,7 @@ export const Hero = props => {
           />
         )}
         <iframe
-          src='/star-background/index.html'
+          src={bannerIframe}
           className='w-full absolute h-screen left-0 top-0 pointer-events-none'
         />
         {/* 阴影遮罩 */}
