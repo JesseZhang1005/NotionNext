@@ -310,7 +310,22 @@ const Style = () => {
       fill: #1f2937 !important;
     }
 
+/* --- 修复 iframe 加载时的底色黑屏问题 --- */
+    
+    /* 1. 亮色主题下，强制把包裹 iframe 的区域设为纯白 */
+    #home {
+      background-color: #ffffff !important;
+    }
 
+    /* 2. 暗色主题下（Tailwind 的 .dark 模式），设为深黑色 */
+    .dark #home {
+      background-color: #111111 !important; /* 如果你觉得不够黑，可以改成 #000000 */
+    }
+
+    /* 3. 确保 iframe 本身在加载出来前是完全透明的，不遮挡底色 */
+    #home iframe {
+      background-color: transparent !important;
+    }
     
   `}</style>
 }
