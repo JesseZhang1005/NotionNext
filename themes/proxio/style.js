@@ -319,12 +319,29 @@ const Style = () => {
 
     /* 2. 暗色主题下（Tailwind 的 .dark 模式），设为深黑色 */
     .dark #home {
-      background-color: #111111 !important; /* 如果你觉得不够黑，可以改成 #000000 */
+      background-color: #000000 !important; /* 如果你觉得不够黑，可以改成 #000000 */
     }
 
     /* 3. 确保 iframe 本身在加载出来前是完全透明的，不遮挡底色 */
     #home iframe {
       background-color: transparent !important;
+    }
+
+/* --- 掩盖 iframe 加载延迟的淡入魔法 --- */
+    
+    /* 给星空特效绑定淡入动画 */
+    #home iframe {
+      animation: starFadeIn 1.5s ease-in-out forwards !important;
+    }
+
+    /* 定义从透明到不透明的渐变过程 */
+    @keyframes starFadeIn {
+      0% { 
+        opacity: 0; 
+      }
+      100% { 
+        opacity: 1; 
+      }
     }
     
   `}</style>
