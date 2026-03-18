@@ -6,7 +6,7 @@ const CONFIG = {
   PROXIO_WELCOME_TEXT: 'Welcome,Jesse Blog', // 欢迎文字，留空则不启用
 
   // 英雄区块导航
-  PROXIO_HERO_ENABLE: true, // 开启英雄区
+  PROXIO_HERO_ENABLE: false, // 开启英雄区
   PROXIO_HERO_TITLE_1: '开源且免费的基于 Notion 笔记的网站构建工具', // 英雄区文字
   PROXIO_HERO_TITLE_2: '通过笔记无感知地建站、成倍放大您的价值', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
@@ -25,7 +25,7 @@ const CONFIG = {
   PROXIO_BLOG_ENABLE: true, // 首页博文区块开关
   PROXIO_BLOG_TITLE: 'Showreel',
   PROXIO_BLOG_COUNT: 4, // 首页博文区块展示前4篇文章
-  PROXIO_BLOG_TEXT_1: '最新动态',
+  PROXIO_BLOG_TEXT_1: '作品集',
 
   // 区块默认内容显示文章的summary文本，但也支持用自定义图片或logo德国替换掉占位显示内容
   PROXIO_BLOG_PLACEHOLDER_IMG_URL_1: '', // 填写要替换成的图片，支持图床或直接上传到项目中，示例  /images/feature-1.webp
@@ -75,9 +75,9 @@ const CONFIG = {
       text: 'CG动画导演/虚拟偶像制作人'
     },
     {
-      title: '腾讯天美工作室',
+      title: '腾讯游戏',
       bio: '2021.02-2022.05',
-      text: 'CG动画导演'
+      text: '天美工作室-CG动画导演'
     },
     {
       title: '完美世界游戏',
@@ -132,7 +132,7 @@ const CONFIG = {
    • 动画电影《摇滚藏獒》-灯光师`,
 
   // 用户测评处的跳转按钮
-  PROXIO_TESTIMONIALS_BUTTON_URL: '/about',
+  PROXIO_TESTIMONIALS_BUTTON_URL: '/archive',
   PROXIO_TESTIMONIALS_BUTTON_TEXT: '作品集',
 
   // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
@@ -144,7 +144,7 @@ const CONFIG = {
         'https://raw.githubusercontent.com/JesseZhang1005/Media_URL/refs/heads/main/sanda.jpg',
       PROXIO_TESTIMONIALS_ITEM_NICKNAME: '电影《西游记大闹天宫》《西游记之孙悟空三打白骨精》',
       PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '电影奖项：第36届香港电影金像奖最佳视觉效果奖',
-      PROXIO_TESTIMONIALS_ITEM_URL: '/'
+      PROXIO_TESTIMONIALS_ITEM_URL: ''
     },
     {
       PROXIO_TESTIMONIALS_ITEM_TEXT:
@@ -153,7 +153,7 @@ const CONFIG = {
         'https://raw.githubusercontent.com/JesseZhang1005/Media_URL/refs/heads/main/xunlong.jpg',
       PROXIO_TESTIMONIALS_ITEM_NICKNAME: '电影《鬼吹灯之寻龙诀》',
       PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '电影奖项：第53届金马奖最佳视觉效果奖',
-      PROXIO_TESTIMONIALS_ITEM_URL: 'https://asenkits.top/'
+      PROXIO_TESTIMONIALS_ITEM_URL: ''
     },
     {
       PROXIO_TESTIMONIALS_ITEM_TEXT:
@@ -161,7 +161,7 @@ const CONFIG = {
       PROXIO_TESTIMONIALS_ITEM_AVATAR: 'https://raw.githubusercontent.com/JesseZhang1005/Media_URL/refs/heads/main/tiedao.jpg',
       PROXIO_TESTIMONIALS_ITEM_NICKNAME: '电影《铁道飞虎》',
       PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '电影奖项：第11届亚洲电影大奖最佳视觉特效奖提名',
-      PROXIO_TESTIMONIALS_ITEM_URL: 'https://www.dwind.top/'
+      PROXIO_TESTIMONIALS_ITEM_URL: ''
     },
     {
       PROXIO_TESTIMONIALS_ITEM_TEXT:
@@ -170,7 +170,7 @@ const CONFIG = {
         'https://raw.githubusercontent.com/JesseZhang1005/Media_URL/refs/heads/main/CFM.jpg',
       PROXIO_TESTIMONIALS_ITEM_NICKNAME: '《穿越火线》手游',
       PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '职位：CG动画导演',
-      PROXIO_TESTIMONIALS_ITEM_URL: 'https://blog.disheng.org/'
+      PROXIO_TESTIMONIALS_ITEM_URL: ''
     },
     {
       PROXIO_TESTIMONIALS_ITEM_TEXT:
@@ -178,14 +178,14 @@ const CONFIG = {
       PROXIO_TESTIMONIALS_ITEM_AVATAR: 'https://raw.githubusercontent.com/JesseZhang1005/Media_URL/refs/heads/main/zhuxian.jpg',
       PROXIO_TESTIMONIALS_ITEM_NICKNAME: '游戏《新诛仙世界》',
       PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '职位：灯光组长',
-      PROXIO_TESTIMONIALS_ITEM_URL: 'https://www.anjhon.top'
+      PROXIO_TESTIMONIALS_ITEM_URL: ''
     },
     {
       PROXIO_TESTIMONIALS_ITEM_TEXT: '负责游戏过场动画导演工作，撰写内容脚本，制作Layout预演，管理动画小组，把控生产品质。',
       PROXIO_TESTIMONIALS_ITEM_AVATAR: 'https://raw.githubusercontent.com/JesseZhang1005/Media_URL/refs/heads/main/longzu.jpg',
       PROXIO_TESTIMONIALS_ITEM_NICKNAME: '《龙族幻想》手游',
       PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '职位：动画导演',
-      PROXIO_TESTIMONIALS_ITEM_URL: 'https://www.lucenczz.top/'
+      PROXIO_TESTIMONIALS_ITEM_URL: ''
     }
   ],
 
