@@ -45,7 +45,7 @@ export const Hero = props => {
           className='w-full absolute h-[75vh] left-0 top-0 pointer-events-none'
         />
         {/* 阴影遮罩 */}
-        <div className='h-1/3 w-full absolute left-0 bottom-0 z-10'>
+        <div className='h-1/4 w-full absolute left-0 bottom-0 z-10'>
           <div
             className='h-full w-full absolute group-hover:opacity-100 transition-all duration-1000 
                     bg-gradient-to-b from-transparent to-white dark:to-black'
