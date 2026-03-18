@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 
 const LoadingCover = ({ onFinishLoading }) => {
     const [isVisible, setIsVisible] = useState(true);
-    const welcomeText = siteConfig('PROXIO_WELCOME_TEXT', '欢迎来到我们的网站！');
+    const welcomeText = siteConfig('PROXIO_WELCOME_TEXT', 'Entering Jesse Space...');
 
     // 定义颜色变量
     const colors = {
