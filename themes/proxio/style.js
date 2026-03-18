@@ -310,22 +310,7 @@ const Style = () => {
       fill: #1f2937 !important;
     }
 
-/* --- 掩盖 iframe 加载延迟的淡入魔法 --- */
-    
-    /* 给星空特效绑定淡入动画 */
-    #home iframe {
-      animation: starFadeIn 1.5s ease-in-out forwards !important;
-    }
 
-    /* 定义从透明到不透明的渐变过程 */
-    @keyframes starFadeIn {
-      0% { 
-        opacity: 0; 
-      }
-      100% { 
-        opacity: 1; 
-      }
-    }
     
   `}</style>
 }
