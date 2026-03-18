@@ -344,6 +344,24 @@ const Style = () => {
       }
     }
 
+/* --- 修复 iframe 加载底色，并实现粒子特效的黑白自适应 --- */
+    
+    /* 1. 默认（亮色模式）：白底 + 反转 iframe（白星星变成黑星星） */
+    #home {
+      background-color: #ffffff !important;
+    }
+    #home iframe {
+      background-color: transparent !important;
+      filter: invert(1); /* 核心魔法：在白天把白粒子反转成黑色！ */
+    }
+
+    /* 2. 暗色模式：黑底 + 取消反转（恢复白星星本色） */
+    .dark #home {
+      background-color: #111111 !important; 
+    }
+    .dark #home iframe {
+      filter: invert(0); /* 黑夜模式恢复原样 */
+    }
     
   `}</style>
 }
