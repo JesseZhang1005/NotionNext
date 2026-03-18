@@ -15,9 +15,25 @@ const LoadingCover = ({ onFinishLoading }) => {
     };
 
     useEffect(() => {
+        // ================= 新增逻辑 1：页面刚加载时检查记忆 =================
+        if (typeof window !== 'undefined' && sessionStorage.getItem('hasSeenWelcome') === 'true') {
+            setIsVisible(false); // 隐藏遮罩层
+            if (onFinishLoading) {
+                onFinishLoading(); // 告诉网站加载完成，直接展示主页
+            }
+            return; // 结束执行，不再绑定下面的点击事件
+        }
+        // ================================================================
+
         const pageContainer = document.getElementById('pageContainer');
 
         const handleClick = (e) => {
+            // ================= 新增逻辑 2：用户点击后写入记忆 =================
+            if (typeof window !== 'undefined') {
+                sessionStorage.setItem('hasSeenWelcome', 'true');
+            }
+            // ================================================================
+
             // 创建扩散光圈
             const ripple = document.createElement('div');
             ripple.classList.add('ripple');
