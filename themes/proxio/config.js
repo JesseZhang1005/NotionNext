@@ -229,7 +229,7 @@ const CONFIG = {
   PROXIO_ABOUT_KEY_4: '年龄',
   PROXIO_ABOUT_VAL_4: '37',
 
-  PROXIO_ABOUT_BUTTON_URL: '/about',
+  PROXIO_ABOUT_BUTTON_URL: '/resume',
   PROXIO_ABOUT_BUTTON_TEXT: '关于我',
 
   // 横向滚动文字
