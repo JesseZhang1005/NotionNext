@@ -331,7 +331,7 @@ const Style = () => {
     
     /* 给星空特效绑定淡入动画 */
     #home iframe {
-      animation: starFadeIn 1.5s ease-in-out forwards !important;
+      animation: starFadeIn 1s ease-in-out forwards !important;
     }
 
     /* 定义从透明到不透明的渐变过程 */
