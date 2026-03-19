@@ -3,7 +3,7 @@
  */
 const CONFIG = {
   PROXIO_WELCOME_COVER_ENABLE: true, //是否显示页面进入的欢迎文字
-  PROXIO_WELCOME_TEXT: 'Welcome,Jesse Blog', // 欢迎文字，留空则不启用
+  PROXIO_WELCOME_TEXT: 'Entering Jesse Space...', // 欢迎文字，留空则不启用
 
   // 英雄区块导航
   PROXIO_HERO_ENABLE: true, // 开启英雄区
@@ -132,7 +132,7 @@ const CONFIG = {
    • 动画电影《摇滚藏獒》-灯光师`,
 
   // 用户测评处的跳转按钮
-  PROXIO_TESTIMONIALS_BUTTON_URL: '/archive',
+  PROXIO_TESTIMONIALS_BUTTON_URL: '/category/Showreel',
   PROXIO_TESTIMONIALS_BUTTON_TEXT: '作品集',
 
   // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
