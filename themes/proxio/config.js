@@ -43,24 +43,24 @@ const CONFIG = {
 
   // 特性1
   PROXIO_FEATURE_1_ICON_CLASS: 'fa-solid fa-stopwatch', // fas图标
-  PROXIO_FEATURE_1_ICON_IMG_URL: '', // 图片图标选填，默认是fas图标，如果需要图片图标可以填写图片地址，示例/avatar.png
+  PROXIO_FEATURE_1_ICON_IMG_URL: 'https://pub-95f1bd15e36b49d4a02e331faec2b866.r2.dev/Images/Angie_touxiang.png', // 图片图标选填，默认是fas图标，如果需要图片图标可以填写图片地址，示例/avatar.png
   PROXIO_FEATURE_1_TITLE_1: '独立创作虚拟偶像-阿喜Angie',
   PROXIO_FEATURE_1_TEXT_1:
     '从构思定位到角色设计，从形象概念到技术落地，从画风设定到内容执行。',
 
   PROXIO_FEATURE_2_ICON_CLASS: 'fa-solid fa-comments',
   PROXIO_FEATURE_2_ICON_IMG_URL: '',
-  PROXIO_FEATURE_2_TITLE_1: '出版《MAYA 材质灯光渲染的艺术》专业书籍',
-  PROXIO_FEATURE_2_TEXT_1: '对灯光色彩原理做深入研究，CGI技术与灯光材质原理实践经验输出',
+  PROXIO_FEATURE_2_TITLE_1: '《MAYA 材质灯光渲染的艺术》专业书籍出版',
+  PROXIO_FEATURE_2_TEXT_1: '对灯光色彩原理做深入研究，CGI技术与灯光材质原理实践经验输出。',
 
   PROXIO_FEATURE_3_ICON_CLASS: 'fa-solid fa-search',
   PROXIO_FEATURE_3_ICON_IMG_URL: '',
-  PROXIO_FEATURE_3_TITLE_1: '作品入围国际摄影展展',
+  PROXIO_FEATURE_3_TITLE_1: '作品入围国际摄影展',
   PROXIO_FEATURE_3_TEXT_1:
-    '2014年摄影作品入围比利时《红杏出墙》国际摄影展',
+    '2014年摄影作品入围比利时《红杏出墙》国际摄影展。',
 
   PROXIO_FEATURE_BUTTON_TEXT: '了解更多', // 按钮文字
-  PROXIO_FEATURE_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 按钮跳转
+  PROXIO_FEATURE_BUTTON_URL: '/resume', // 按钮跳转
 
   // 首页生涯区块
   PROXIO_CAREER_ENABLE: true, // 区块开关
