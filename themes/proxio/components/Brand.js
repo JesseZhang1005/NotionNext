@@ -42,7 +42,7 @@ export const Brand = () => {
       <section id='brand' className='py-12 dark:bg-dark'>
     {/* 👇 升级版标题区块：强制居中 + 同步字体 👇 */}
       <div className="w-full text-center mt-12 mb-6">
-        <h2 className="text-3xl font-sans font-bold text-gray-900 dark:text-white">
+        <h2 className="text-3xl font-light text-gray-800 dark:text-gray-200">
           软件能力
         </h2>
       </div>
