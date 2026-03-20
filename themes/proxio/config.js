@@ -25,7 +25,7 @@ const CONFIG = {
   PROXIO_BLOG_ENABLE: true, // 首页博文区块开关
   PROXIO_BLOG_TITLE: 'Updates',
   PROXIO_BLOG_COUNT: 4, // 首页博文区块展示前4篇文章
-  PROXIO_BLOG_TEXT_1: '最新动态',
+  PROXIO_BLOG_TEXT_1: '作品动态',
 
   // 区块默认内容显示文章的summary文本，但也支持用自定义图片或logo德国替换掉占位显示内容
   PROXIO_BLOG_PLACEHOLDER_IMG_URL_1: '', // 填写要替换成的图片，支持图床或直接上传到项目中，示例  /images/feature-1.webp
@@ -219,7 +219,7 @@ const CONFIG = {
   PROXIO_ABOUT_TEXT_1: 'CG动画创作者',
   PROXIO_ABOUT_TEXT_2:
     '如果你需要一个懂电影叙事、懂游戏表现、懂技术、还能平衡梦想与预算的老兵，那大概率是在说我。入行14年，从‘打光少年’卷成了‘做片儿老手’。在电影，我参与过获奖电影的大制作；在游戏，参与过口碑与品质兼顾的优秀作品。作为一个技术+创作‘多面手’，我储备十多年的实战经验，擅长把那些‘五彩斑斓的黑’转化成高级的动态画面。',
-  PROXIO_ABOUT_PHOTO_URL: 'https://raw.githubusercontent.com/JesseZhang1005/Media_URL/refs/heads/main/katong.png',
+  PROXIO_ABOUT_PHOTO_URL: 'https://pub-95f1bd15e36b49d4a02e331faec2b866.r2.dev/Images/katong.png',
   PROXIO_ABOUT_KEY_1: '经验年限',
   PROXIO_ABOUT_VAL_1: '14年+',
   PROXIO_ABOUT_KEY_2: '性别',
