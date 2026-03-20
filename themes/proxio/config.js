@@ -42,18 +42,18 @@ const CONFIG = {
   PROXIO_FEATURE_TEXT_2: '动漫设计+电影摄影专业背景，在创作过程中我习惯在叙事、节奏、情绪与氛围之间反复横跳。',
 
   // 特性1
-  PROXIO_FEATURE_1_ICON_CLASS: 'fa-solid fa-stopwatch', // fas图标
+  PROXIO_FEATURE_1_ICON_CLASS: '', // fas图标：fa-solid fa-stopwatch
   PROXIO_FEATURE_1_ICON_IMG_URL: 'https://pub-95f1bd15e36b49d4a02e331faec2b866.r2.dev/Images/Angie_touxiang.jpg', // 图片图标选填，默认是fas图标，如果需要图片图标可以填写图片地址，示例/avatar.png
   PROXIO_FEATURE_1_TITLE_1: '独立创作虚拟偶像-阿喜Angie',
   PROXIO_FEATURE_1_TEXT_1:
     '从构思定位到角色设计，从形象概念到技术落地，从画风设定到内容执行。',
 
-  PROXIO_FEATURE_2_ICON_CLASS: 'fa-solid fa-comments',
+  PROXIO_FEATURE_2_ICON_CLASS: '', // fas图标：fa-solid fa-comments
   PROXIO_FEATURE_2_ICON_IMG_URL: 'https://pub-95f1bd15e36b49d4a02e331faec2b866.r2.dev/Images/book.jpg',
   PROXIO_FEATURE_2_TITLE_1: '《MAYA 材质灯光渲染的艺术》专业书籍出版',
   PROXIO_FEATURE_2_TEXT_1: '对灯光色彩原理做深入研究，CGI技术与灯光材质原理实践经验输出。',
 
-  PROXIO_FEATURE_3_ICON_CLASS: 'fa-solid fa-search',
+  PROXIO_FEATURE_3_ICON_CLASS: '', // fas图标：fa-solid fa-search
   PROXIO_FEATURE_3_ICON_IMG_URL: 'https://pub-95f1bd15e36b49d4a02e331faec2b866.r2.dev/Images/kongzi.jpg',
   PROXIO_FEATURE_3_TITLE_1: '作品入围国际摄影展',
   PROXIO_FEATURE_3_TEXT_1:
