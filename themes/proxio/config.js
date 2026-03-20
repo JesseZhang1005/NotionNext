@@ -264,23 +264,23 @@ const CONFIG = {
       ]
     },
     {
-      name: '项目作品',
+      name: '作品分类',
       menus: [
-        { title: '穿越火线', href: '/article/cfm' },
+        { title: '导演作品', href: '/tag/导演' },
         {
-          title: '坦克争霸',
-          href: '/article/tank'
+          title: '灯光作品',
+          href: '/tag/灯光'
         },
         {
-          title: '游戏灯光',
+          title: '',
           href: '/article/gamelight'
         },
         {
-          title: 'AIGC动画',
+          title: '',
           href: '/article/evanlab'
         },
         {
-          title: '阿喜Angie',
+          title: '',
           href: '/article/angie'
         }
       ]
