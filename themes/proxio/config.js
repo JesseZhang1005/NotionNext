@@ -258,8 +258,8 @@ const CONFIG = {
           href: '/resume'
         },
         {
-          title: '作品集',
-          href: '/category/Showreel'
+          title: '作品下载',
+          href: 'https://pan.baidu.com/s/1MnxiWDsJcyTAghn8GO7Qyw?pwd=jkgb'
         }
       ]
     },
