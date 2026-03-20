@@ -266,22 +266,22 @@ const CONFIG = {
     {
       name: '项目作品',
       menus: [
-        { title: '穿越火线', href: '/archive/cfm' },
+        { title: '穿越火线', href: '/article/cfm' },
         {
           title: '坦克争霸',
-          href: '/archive/tank'
+          href: '/article/tank'
         },
         {
           title: '游戏灯光',
-          href: '/archive/gamelight'
+          href: '/article/gamelight'
         },
         {
           title: 'AIGC动画',
-          href: '/archive/evanlab'
+          href: '/article/evanlab'
         },
         {
           title: '阿喜Angie',
-          href: '/archive/angie'
+          href: '/article/angie'
         }
       ]
     }
