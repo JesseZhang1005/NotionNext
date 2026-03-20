@@ -235,7 +235,7 @@ const CONFIG = {
   // 横向滚动文字
   PROXIO_BRANDS_ENABLE: true, // 滚动文字
   PROXIO_BRANDS: [
-    '软件能力:',
+    '3d Max',
     'Maya',
     'Unreal Engine',
     'DaVinci Resolve',
