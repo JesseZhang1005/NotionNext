@@ -71,15 +71,12 @@ export const Blog = ({ posts }) => {
                     <div className='relative rounded-xl border overflow-hidden shadow-md dark:border-gray-700 dark:bg-gray-800'>
                       <SmartLink href={item?.href} className='block'>
                         {item.pageCoverThumbnail && (
-                          // 图片半透明
-                          <LazyImage
-                            src={item.pageCoverThumbnail}
-                            alt={item.title}
-                            className='w-full h-80 object-cover transition-transform duration-500 rounded-xl'
-                          />
+                         <LazyImage
+  src={item.pageCoverThumbnail}
+  alt={item.title}
+  className='w-full h-80 object-cover rounded-xl transition-all duration-500 opacity-30 grayscale group-hover:opacity-90 group-hover:grayscale-0'
+/>
                         )}
-                        {/* 遮罩层，仅覆盖图片部分 */}
-                        <div className='absolute inset-0 bg-white/70 dark:bg-black/70 transition-all duration-500 group-hover:bg-transparent' />
                         {/* 鼠标悬停时显示的文字内容 */}
                         <div className='absolute inset-0 flex items-center justify-center group-hover:scale-110 duration-200 group-hover:text-white'>
                           {!coverImg && (
@@ -87,10 +84,10 @@ export const Blog = ({ posts }) => {
                               {item.summary}
                             </p>
                           )}
-                          <LazyImage
-                            src={coverImg}
-                            className='absolute max-h-full object-cover'
-                          />
+                         <LazyImage
+  src={coverImg}
+  className='absolute max-h-full object-cover transition-all duration-500 opacity-30 grayscale group-hover:opacity-90 group-hover:grayscale-0'
+/>
                         </div>
                       </SmartLink>
                     </div>
