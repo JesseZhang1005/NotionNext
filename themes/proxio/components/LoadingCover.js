@@ -72,7 +72,7 @@ const LoadingCover = ({ onFinishLoading }) => {
         autoCloseTimer = setTimeout(() => {
             executeClose(); // 3秒一到，自动执行关门指令
             document.body.removeEventListener('click', handleClick); // 关门后撤销点击监听
-        }, 3000); // ⏳ 这里的 3000 代表 3 秒，你想改快点就改成 2000，慢点就 5000
+        }, 5000); // ⏳ 这里的 5000 代表 5 秒，你想改快点就改成 2000，慢点就 5000
         // ==========================================================
 
         // 组件卸载时的清理工作
