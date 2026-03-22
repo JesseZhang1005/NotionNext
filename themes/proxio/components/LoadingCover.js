@@ -14,7 +14,7 @@ const LoadingCover = ({ onFinishLoading }) => {
         rippleColor: 'rgba(255, 255, 255, 0.6)', // 半透明白色
     };
 
-    useEffect(() => {
+ useEffect(() => {
         // ================= 新增逻辑 1：页面刚加载时检查记忆 =================
         if (typeof window !== 'undefined' && sessionStorage.getItem('hasSeenWelcome') === 'true') {
             setIsVisible(false); // 隐藏遮罩层
@@ -26,21 +26,13 @@ const LoadingCover = ({ onFinishLoading }) => {
         // ================================================================
 
         const pageContainer = document.getElementById('pageContainer');
+        let autoCloseTimer; // 定义倒计时炸弹
 
-        const handleClick = (e) => {
-            // ================= 新增逻辑 2：用户点击后写入记忆 =================
+        // 提取通用“关门”指令：不管是点击还是时间到了，都走这套平滑退场逻辑
+        const executeClose = () => {
             if (typeof window !== 'undefined') {
                 sessionStorage.setItem('hasSeenWelcome', 'true');
             }
-            // ================================================================
-
-            // 创建扩散光圈
-            const ripple = document.createElement('div');
-            ripple.classList.add('ripple');
-            ripple.style.left = `${e.clientX - 10}px`;
-            ripple.style.top = `${e.clientY - 10}px`;
-            document.body.appendChild(ripple);
-
             // 添加页面缩放 + 模糊动画
             pageContainer?.classList?.add('page-clicked');
 
@@ -53,6 +45,19 @@ const LoadingCover = ({ onFinishLoading }) => {
                     }
                 }, 600); // 等待淡出动画完成
             }, 1200);
+        };
+
+        const handleClick = (e) => {
+            clearTimeout(autoCloseTimer); // 如果用户手动点击了，立刻拆除倒计时炸弹
+
+            // 创建扩散光圈（保留了你点击时的水波纹特效）
+            const ripple = document.createElement('div');
+            ripple.classList.add('ripple');
+            ripple.style.left = `${e.clientX - 10}px`;
+            ripple.style.top = `${e.clientY - 10}px`;
+            document.body.appendChild(ripple);
+
+            executeClose(); // 执行关门指令
 
             // 清理 ripple 元素
             setTimeout(() => {
@@ -60,13 +65,23 @@ const LoadingCover = ({ onFinishLoading }) => {
             }, 1000);
         };
 
+        // 监听点击事件
         document.body.addEventListener('click', handleClick);
 
+        // ================= 新增逻辑 3：3秒自动放行 =================
+        autoCloseTimer = setTimeout(() => {
+            executeClose(); // 3秒一到，自动执行关门指令
+            document.body.removeEventListener('click', handleClick); // 关门后撤销点击监听
+        }, 3000); // ⏳ 这里的 3000 代表 3 秒，你想改快点就改成 2000，慢点就 5000
+        // ==========================================================
+
+        // 组件卸载时的清理工作
         return () => {
             document.body.removeEventListener('click', handleClick);
+            clearTimeout(autoCloseTimer); // 拔掉定时器电源，防止内存泄漏
         };
     }, [onFinishLoading]);
-
+    
     if (!isVisible) return null;
 
     return (
