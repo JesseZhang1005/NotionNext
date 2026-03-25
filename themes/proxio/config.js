@@ -43,10 +43,10 @@ const CONFIG = {
 
   // 特性1
   PROXIO_FEATURE_1_ICON_CLASS: '', // fas图标：fa-solid fa-stopwatch
-  PROXIO_FEATURE_1_ICON_IMG_URL: 'https://pub-95f1bd15e36b49d4a02e331faec2b866.r2.dev/Images/Angie_touxiang.jpg', // 图片图标选填，默认是fas图标，如果需要图片图标可以填写图片地址，示例/avatar.png
-  PROXIO_FEATURE_1_TITLE_1: '独立创作虚拟偶像-阿喜Angie',
+  PROXIO_FEATURE_1_ICON_IMG_URL: 'https://public-static.zcool.com.cn/git_z/z/images/svg/honor_tuijian_designer.png', // 图片图标选填，默认是fas图标，如果需要图片图标可以填写图片地址，示例/avatar.png
+  PROXIO_FEATURE_1_TITLE_1: '站酷推荐设计师',
   PROXIO_FEATURE_1_TEXT_1:
-    '从构思定位到角色设计，从形象概念到技术落地，从画风设定到内容执行。',
+    '三维设计师、三维动画导演。',
 
   PROXIO_FEATURE_2_ICON_CLASS: '', // fas图标：fa-solid fa-comments
   PROXIO_FEATURE_2_ICON_IMG_URL: 'https://pub-95f1bd15e36b49d4a02e331faec2b866.r2.dev/Images/book.jpg',
